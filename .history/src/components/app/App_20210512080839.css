@@ -1,0 +1,40 @@
+body{
+  background-color: #fff;
+}
+.app {
+  padding: 30px 0;
+  min-height: 100vh;
+  text-align: center;
+}
+.app > h1 {
+  display: inline-block;
+
+  text-align: center;
+  width: max-content;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+:root {
+  --color-primary: linear-gradient(
+    100.28537797494744deg,
+    rgba(23, 98, 122, 1) 6.8671875%,
+    rgba(23, 98, 122, 1) 8.216145833333332%,
+    rgba(20, 159, 184, 1) 87.80468749999999%
+  );
+
+  --color-dark: linear-gradient(
+    89.76211853375082deg,
+    rgba(0, 0, 0, 1) 5.893229166666666%,
+    rgba(0, 0, 0, 1) 7.356770833333332%,
+    rgba(51, 51, 51, 1) 93.70572916666666%
+  );
+
+  --color-light: linear-gradient(
+    89.76211853375082deg,
+    rgba(230, 230, 230, 1) 5.893229166666666%,
+    rgba(230, 230, 230, 1) 7.356770833333332%,
+    rgba(250, 250, 250, 1) 93.70572916666666%
+  );
+}
